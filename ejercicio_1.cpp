@@ -10,13 +10,13 @@ int main() {
     cout << "Ingrese un numero entero " << endl;
     cin >> n;
 
-    // Caso especial: si el número es 0
+    // si el numero es 0
     if (n == 0) {
-        cout << "El numero 0 es un dígito par" << endl;
+        cout << "El numero 0 es un digito par" << endl;
         return 0;
     }
 
-    // Analizar cada dígito del número
+    // Analizar cada digito del numero
     while (n > 0) {
         digito = n % 10;  // 
 
